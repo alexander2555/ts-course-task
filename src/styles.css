@@ -1,3 +1,54 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: black;
+  transition: background-image 0.3s;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: 3rem;
+  color: orange;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: block;
+  padding: 0;
+  margin: 0 0.5rem;
+  aspect-ratio: 1;
+  width: 9rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+  background-size: cover;
+  cursor: pointer;
+}
+.btn_sun {
+  background-image: url('assets/summer-bg.jpg');
+}
+.btn_cloud-rain {
+  background-image: url('assets/rainy-bg.jpg');
+}
+.btn_cloud-snow {
+  background-image: url('assets/winter-bg.jpg');
+}
+
+.btn__icon {
+  width: 2.5rem;
 }

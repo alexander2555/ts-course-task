@@ -10,6 +10,9 @@ yarn-error.log
 dist/
 build/
 
+# maps
+*.map
+
 # Environment variables
 .env
 .env.local
